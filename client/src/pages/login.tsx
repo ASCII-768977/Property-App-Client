@@ -61,7 +61,7 @@ export const Login: React.FC = () => {
           }}
         >
           <div>
-            <img src={hive} alt="Hive Logo" />
+            <img src={hive} alt="Hive Logo" style={{width:"18rem"}} />
           </div>
           <Box mt={4}>
             <GoogleButton />
