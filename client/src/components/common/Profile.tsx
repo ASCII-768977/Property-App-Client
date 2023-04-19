@@ -77,7 +77,7 @@ const Profile = ({ type, name, avatar, email, properties }: ProfileProps) => (
                   >
                     <Place sx={{ color: "#11142D" }} />
                     <Typography fontSize={14} color="#11142D">
-                      4517 Washington Ave. Manchaster, Kentucky 39495
+                      Sydney, Australia
                     </Typography>
                   </Box>
                 </Stack>
