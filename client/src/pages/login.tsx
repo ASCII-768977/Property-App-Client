@@ -61,12 +61,30 @@ export const Login: React.FC = () => {
           }}
         >
           <div>
-            <img src={hive} alt="Hive Logo" style={{width:"18rem"}} />
+            <img src={hive} alt="Hive Logo" style={{ width: "18rem" }} />
           </div>
           <Box mt={4}>
             <GoogleButton />
           </Box>
         </Box>
+        <h4>User Guide</h4>
+        <p>
+          Since the backend is deploy to a free cloud and it's bit slow, if you
+          can not see the button of login then try to refresh the page and wait
+          for few seconds.
+        </p>
+        <p>
+          After login, you can see the main dashboard with different graphs.
+        </p>
+        <p>
+          For the property details page, you can add, update, delete properties.
+        </p>
+        <p>
+          Feel free to contact me if you have any problem or find bugs.
+          <a href="mailto:forrest.lin.work@gmail.com" style={{ color: "blue" }}>
+            forrest.lin.work@gmail.com
+          </a>{" "}
+        </p>
       </Container>
     </Box>
   );
